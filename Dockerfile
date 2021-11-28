@@ -13,6 +13,6 @@ ENV PYTHONDONTWRITEBYTECODE=1
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 RUN mkdir /root/api
-ADD requiments.txt /root/api
+ADD requirements.txt /root/api
 WORKDIR /root/api
-RUN pip install -r requiments.txt
+RUN pip install -r requirements.txt
